@@ -3,19 +3,93 @@ section{
 }
 .layout{
     color: white;
+    
 }
 .main{
     width: 100%;
     height: 830px;
     background-image: url("image/main-screen__bgc.png");
+    background-size: cover;
+    position: relative;
+    background-position-x: 80%;
 }
 .main-18 {
     display: flex;
+    justify-content: space-between;
+    gap:20px;
 }
 .main-18 div{
     display: block;
     text-align: center;
-    margin: 15px;
+    padding: 15px;
     background-color: black;
 
+}
+.home{
+    display: block;
+    font-size: 800;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.home h1 {
+    font-size: 64px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-bottomline{
+    background-color: black;
+    padding:25px;
+}
+.main-bottomline button{
+    margin-left: 80px;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+     border-radius:50px;
+}
+.line{
+    align-items: center;
+    color: white;
+    display: flex;
+}
+.students {
+    margin-left: 80px;
+}
+.students p{
+    opacity: 40%;
+    margin: 8px 0;
+}
+.count p{
+    margin: 8px 0 8px 35px;
+}
+.moneycount p{
+    display: flex;
+}
+.bar-unite{
+    display: flex;
+}
+.bar-full{
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    display: block;
+    width: 150px;
+    height: 6px;
+}
+.bar-empty{
+    background:#ffffff;
+    display: block;
+    width: 100px;
+    height: 6px;
+}
+.edges{
+    display: flex;
+    justify-content: space-between;
+    gap: 230px;
+}
+.edges p{
+    opacity: 40%;
 }

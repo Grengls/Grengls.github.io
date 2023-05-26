@@ -56,6 +56,8 @@ section{
     align-items: center;
     color: white;
     display: flex;
+    justify-content: space-between;
+    margin: 0 0 100px;
 }
 .students {
     margin-left: 80px;
@@ -92,4 +94,24 @@ section{
 }
 .edges p{
     opacity: 40%;
+}
+.about{
+    color: #ffffff;
+    background-color: black;
+   display: flex; 
+   margin: 100px 0 100px;
+}
+.about img{
+    padding-top: 200px;
+}
+.about-text h2{
+    padding-bottom: 45px;
+}
+.about-text{
+    margin-left: 139px;
+    margin-top: 269px;
+}
+.start{
+    margin: 100px 0 100px;
+    display: flex;
 }

@@ -115,3 +115,48 @@ section{
     margin: 100px 0 100px;
     display: flex;
 }
+.table{
+    display: flex;
+}
+.fastlaunch{
+    margin: 100px 0 100px;
+    color: #ffffff;
+    background-color: black;
+}
+.proff{
+    color:#ffffff;
+    background-color: black;
+    margin: 100px 0 100px;
+}
+.own_a_proff{
+    display: flex;
+}
+.brands{
+    display: flex;
+}
+.partners{
+    color:#ffffff;
+    background-color: black;
+    margin: 100px 0 100px;
+}
+.programm{
+    color:#ffffff;
+    background-color: black;
+    margin: 100px 0 100px;
+}
+.lectors{
+    color:#ffffff;
+    background-color: black;
+    margin: 100px 0 100px;
+}
+.prepod_head{
+    display: flex;
+}
+.prepods{
+    display: flex;
+}
+.ending{
+    color:#ffffff;
+    background-color: black;
+    margin: 100px 0;
+}
